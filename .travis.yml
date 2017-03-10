@@ -1,0 +1,7 @@
+deploy:
+  provider: gae
+  keyfile: client-secret.json.enc
+  project: gae-sample-160213
+before_install:
+- openssl aes-256-cbc -K $encrypted_2f13f87746d9_key -iv $encrypted_2f13f87746d9_iv
+  -in client-secret.json.enc -out client-secret.json -d
