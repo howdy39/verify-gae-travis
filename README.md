@@ -1,7 +1,11 @@
 # verify-gae-travis
 [Google App Engine Deployment | Travis](https://docs.travis-ci.com/user/deployment/google-app-engine/)
 
-## ローカルでの検証
+## Travis Cliのインストール
+https://github.com/travis-ci/travis.rb#installation
+
+
+## gcloudのインストール
 http://qiita.com/kentarosasaki/items/2232113b44b016a56adc
 
 ```
