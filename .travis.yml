@@ -1,15 +1,11 @@
 sudo: required
-
-services:  
-  - docker
-
+services:
+- docker
 language: go
-
 deploy:
   provider: gae
   keyfile: client-secret.json
   project: gae-sample-160213
-  
 before_install:
-- openssl aes-256-cbc -K $encrypted_2f13f87746d9_key -iv $encrypted_2f13f87746d9_iv
+- openssl aes-256-cbc -K $encrypted_f87e9f5f3da7_key -iv $encrypted_f87e9f5f3da7_iv
   -in client-secret.json.enc -out client-secret.json -d
