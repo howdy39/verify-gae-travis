@@ -21,12 +21,14 @@ https://cloud.google.com/sdk/docs/initializing
 gcloud config set project gae-sample-160213
 ```
 
-### サービスアカウント
+### 認証・認可
+
+#### サービスアカウント
 ```
 gcloud auth activate-service-account --key-file client-secret.json
 ```
 
-### ログイン
+#### ブラウザログイン
 ```
 gcloud auth login
 ```
