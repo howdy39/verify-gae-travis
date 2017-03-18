@@ -1,5 +1,5 @@
-# application: gae-sample-160213
-# version: 1
+#application: gae-sample-160213
+#version: 2
 runtime: go
 api_version: go1
 handlers:
